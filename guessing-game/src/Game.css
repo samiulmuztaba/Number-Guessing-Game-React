@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid {
+  background-color: darkslategrey;
+  border-radius: 20px;
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 50px); /* 5 columns */
+  gap: 10px;
+  max-width: max-content;
+  margin: auto ;
+  /* font-size: 50px; */
+}
+
+
